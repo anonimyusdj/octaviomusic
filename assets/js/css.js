@@ -1,26 +1,16 @@
-$(document).ready(function(){
-   $('.sidenav').sidenav();
- });
+$('.sidenav').sidenav();
 
- $(document).ready(function(){
-   $('.carousel').carousel();
- });
 
- $(document).ready(function() {
-    $('input#input_text, textarea#textarea2').characterCounter();
-  });
+$('.carousel').carousel();
 
-  $(document).ready(function(){
-     $('.tooltipped').tooltip();
-   });
+$('input#input_text, textarea#textarea2').characterCounter();
 
-   $(document).ready(function(){
-        $('.dropdown-trigger').dropdown();
-    });
 
-$(document).ready(function(){
-        $('.collapsible').collapsible();
-      });
-$(document).ready(function(){
-         $('select').formSelect();
-});
+$('.tooltipped').tooltip();
+
+
+$('.dropdown-trigger').dropdown();
+
+$('.collapsible').collapsible();
+
+$('select').formSelect();
