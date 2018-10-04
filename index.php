@@ -1,6 +1,6 @@
 <?php
 require_once "model/db.model.php";
-$controller="Index";
+$controller="index";
 
 if (!isset($_REQUEST['c'])) {
     require_once "controller/$controller.controller.php";
