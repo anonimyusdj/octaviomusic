@@ -5,7 +5,7 @@ require.config({
         "app": 'apg',
         'coreModule': 'coreModule',
         "jq": "jquery",
-        "mtz": "materialize.min.js",
+        "mtz": "materialize.min",
         "css": "css"
     },
     shim: {
