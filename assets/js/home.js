@@ -6,7 +6,7 @@ require.config({
         'coreModule': 'coreModule',
         "jq": "jquery",
         "mtz": "materialize.min",
-        "css": "css"
+        //"css": "css"
     },
     shim: {
         'app': {
@@ -19,9 +19,9 @@ require.config({
         "mtz": {
             deps: ['jq'],
         },
-        "css": {
-            deps: ['mtz', 'jq'],
-        }
+        /* "css": {
+             deps: ['mtz', 'jq'],
+         }*/
 
     }
 });
@@ -41,4 +41,4 @@ require(['app'], function() {
 require(['mtz'], function() {
 
 });
-require(['css']);
+//require(['css']);

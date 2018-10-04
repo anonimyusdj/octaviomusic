@@ -19,5 +19,5 @@
 
 </head>
 <body>
-    
     <script src="assets/js/require.js" data-main="assets/js/home"></script>
+    <script src="assets/js/css.js"></script>
