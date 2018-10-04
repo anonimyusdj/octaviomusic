@@ -3,7 +3,10 @@ require.config({
     paths: {
         "angular": "angular.min",
         "app": 'apg',
-        'coreModule': 'coreModule'
+        'coreModule': 'coreModule',
+        "jq": "jquery",
+        "mtz": "materialize.min.js",
+        "css": "css"
     },
     shim: {
         'app': {
@@ -12,10 +15,32 @@ require.config({
         },
         'coreModule': {
             deps: ['angular'],
+        },
+        "mtz": {
+            deps: ['jq'],
+        },
+        "css": {
+            deps: ['mtz', 'jq'],
         }
+
     }
 });
 
+require(['angular'], function() {
+
+});
+
+require(['jq'], function() {
+
+})
+
 require(['app'], function() {
     angular.bootstrap(document, ['app']);
+});
+
+require(['mtz'], function() {
+
+});
+require(['css'], function() {
+
 });
