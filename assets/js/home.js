@@ -41,6 +41,4 @@ require(['app'], function() {
 require(['mtz'], function() {
 
 });
-require(['css'], function() {
-
-});
+require(['css']);
