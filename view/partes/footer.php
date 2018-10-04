@@ -1,6 +1,6 @@
 
 
-<footer class="page-footer blue darken-2">
+<footer class="page-footer <?php echo $color; ?> darken-2">
   <div class="container">
     <div class="row">
       <div class="col l6 s12">
@@ -9,17 +9,17 @@
           <form class="col s12 card">
             <div class="row">
               <div class="input-field col s11">
-                <i class="material-icons prefix blue-text darken-4">email</i>
+                <i class="material-icons prefix <?php echo $color; ?>-text darken-4">email</i>
                 <input id="email" type="email" class="validate">
                 <label for="email">Correo</label>
               </div>
               <div class="input-field col s11">
-                <i class="material-icons prefix blue-text darken-4">chat</i>
+                <i class="material-icons prefix <?php echo $color; ?>-text darken-4">chat</i>
                 <textarea id="textarea2" class="materialize-textarea" data-length="120"></textarea>
                 <label for="textarea2">Mensaje</label>
               </div>
             </div>
-            <center><button type="button" name="button" class="btn blue darken-1" style="margin-bottom:10px;">Enviar</button></center>
+            <center><button type="button" name="button" class="btn <?php echo $color; ?> darken-1" style="margin-bottom:10px;">Enviar</button></center>
           </form>
         </div>
       </div>
