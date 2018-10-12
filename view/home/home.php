@@ -17,7 +17,7 @@
         <hr>
         <div class="row">
             <div class="col s12 md12">
-                <center><img style="height: 100px;" class="responsive-img circle" src="app/public/multimedia/img/avatar.jpg" alt="">
+                <center><img style="height: 100px;" class="responsive-img circle" src="<?php echo $imagenes;?>avatar.jpg" alt="">
                     <h5>Octavio Vazquez</h5>
                 </center>
                 <hr>

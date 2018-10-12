@@ -1,6 +1,6 @@
 <nav>
     <div class="nav-wrapper <?php echo $color; ?> darken-3">
-      <a href="#!" class="brand-logo"><?php echo $autor ?></a>
+      <a href="#!" class="brand-logo"><img src="<?php echo $imagenes;?>logo.jpg" alt=""  width="45px"><?php echo $autor ?></a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
         <li><a style=" font-size:20px;" href="index.php"><i class="material-icons left">home</i>Inicio</a></li>
