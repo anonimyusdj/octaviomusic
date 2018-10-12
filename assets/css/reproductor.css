@@ -1,13 +1,4 @@
-/*Imports*/
-
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
-
-/* Variables*/
-
-$color-background: #fef29c;
-
-/*CSS*/
-
 *,
 *:before,
 *:after {
@@ -15,35 +6,38 @@ $color-background: #fef29c;
 }
 
 body {
-    background-color: $color-background;
+    background-color: #fef29c;
     color: #515044;
     font-family: 'Raleway', sans-serif;
 }
 
-
-/*body*/
-
 .music-player-container {
-    @include transform( translate(-50%, -50%));
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     display: inline-block;
     height: 370px;
     position: absolute;
     min-width: 460px;
     left: 50%;
     top: 50%;
-    &:after {
-        @include filter(blur(8px));
-        background-color: rgba(0, 0, 0, 0.8);
-        bottom: -2px;
-        content: ' ';
-        display: block;
-        height: 10px;
-        left: 19px;
-        position: absolute;
-        transform: rotate(-3deg);
-        width: 70%;
-        z-index: 0;
-    }
+}
+
+.music-player-container:after {
+    -webkit-filter: blur(8px);
+    filter: blur(8px);
+    background-color: rgba(0, 0, 0, 0.8);
+    bottom: -2px;
+    content: ' ';
+    display: block;
+    height: 10px;
+    left: 19px;
+    position: absolute;
+    transform: rotate(-3deg);
+    width: 70%;
+    z-index: 0;
 }
 
 .music-player {
@@ -56,17 +50,15 @@ body {
     z-index: 3;
 }
 
-
-/*.music-player*/
-
 .player-content-container {
-    @include transform(translateY(-50%));
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
     top: 50%;
     position: relative;
 }
-
-
-/*.player-content-container*/
 
 .artist-name {
     font-size: 28px;
@@ -74,26 +66,17 @@ body {
     margin: 0 0 0.75em 0;
 }
 
-
-/*.artist-name*/
-
 .album-title {
     font-weight: 200;
     font-size: 24px;
     margin: 0 0 1.75em 0;
 }
 
-
-/* .album-title*/
-
 .song-title {
     font-size: 18px;
     font-weight: 200;
     margin: 0 0 1.5em 0;
 }
-
-
-/* .song-title*/
 
 .album {
     box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.65);
@@ -105,11 +88,8 @@ body {
     z-index: 10;
 }
 
-
-/* .album*/
-
 .album-art {
-    background: #fff url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/83141/incubus-make-yourself.jpg') center / cover no-repeat;
+    background: #fff url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/83141/incubus-make-yourself.jpg") center/cover no-repeat;
     height: 315px;
     position: relative;
     width: 315px;
@@ -117,9 +97,13 @@ body {
 }
 
 .vinyl {
-    @include animation(spin 2s linear infinite);
-    @include transition(all 500ms);
-    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/83141/vinyl.png'), url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/83141/incubus-make-yourself.jpg');
+    -webkit-animation: spin 2s linear infinite;
+    -moz-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    transition: all 500ms;
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/83141/vinyl.png"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/83141/incubus-make-yourself.jpg");
     background-position: center, center;
     background-size: cover, 40% auto;
     background-repeat: no-repeat;
@@ -132,65 +116,79 @@ body {
     width: 300px;
     z-index: 5;
     will-change: transform, left;
-    .is-playing & {
-        left: 52%;
-    }
+}
+
+.is-playing .vinyl {
+    left: 52%;
 }
 
 .music-player-controls {
     text-align: center;
 }
 
-
-/*.music-player-controls*/
-
 [class^="control-"] {
-    @include filter(brightness(95%));
+    -webkit-filter: brightness(95%);
+    filter: brightness(95%);
     border-radius: 100%;
     display: inline-block;
     height: 44px;
     margin: 0 3px;
     width: 44px;
-    &:hover {
-        @include filter(brightness(85%));
-        cursor: pointer;
-    }
-    /* :hover*/
 }
 
-
-/* [class^="control-"]*/
+[class^="control-"]:hover {
+    -webkit-filter: brightness(85%);
+    filter: brightness(85%);
+    cursor: pointer;
+}
 
 .control-play {
-    background: transparent url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/83141/play.svg') center / cover no-repeat;
-    .is-playing & {
-        background: transparent url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/83141/pause.svg') center / cover no-repeat;
-    }
-    /* .control-play*/
+    background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/83141/play.svg") center/cover no-repeat;
 }
 
-
-/* .control-play*/
+.is-playing .control-play {
+    background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/83141/pause.svg") center/cover no-repeat;
+}
 
 .control-forwards {
-    background: transparent url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/83141/forwards.svg') center / cover no-repeat;
+    background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/83141/forwards.svg") center/cover no-repeat;
 }
-
-
-/*control-forwards*/
 
 .control-back {
-    background: transparent url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/83141/backwards.svg') center / cover no-repeat;
+    background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/83141/backwards.svg") center/cover no-repeat;
 }
 
-
-/*.control-back*/
-
-@include keyframes(spin) {
+@-webkit-keyframes spin {
     0% {
-        @include transform(rotate(0deg));
+        -webkit-transform: rotate(0deg);
     }
     100% {
-        @include transform(rotate(360deg));
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes spin {
+    0% {
+        -moz-transform: rotate(0deg);
+    }
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
     }
 }
