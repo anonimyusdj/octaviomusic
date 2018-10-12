@@ -1,4 +1,5 @@
 <div class="row">
+    <div class="col s12 m1"></div>
     <div class="col s12 m5 card">
         <header>
             <h4>AGRADECIMIENTOS</h4>
@@ -8,7 +9,7 @@
             usa una galería de textos y los mezcla de tal manera que logro hacer un libro de textos especimen. No solo sobrevivio 500 años, sino que tambien ingreso como texto de relleno en documentos electronicos, quedando esencialmente igual al original.
             Fue popularizado en los 60s con la creacion de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y mas recientemente con software de autoedicion, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
     </div>
-
+    <div class="col s12 m1"></div>
     <div class="col s12 m4 card">
         <header>
             <h4 class="titulo">SOBRE MI</h4>
