@@ -15,6 +15,7 @@ body {
     min-width: 460px;
     left: 50%;
     top: 50%;
+    margin-top: 300px;
 }
 
 .music-player-container:after {
