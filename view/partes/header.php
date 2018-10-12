@@ -1,8 +1,6 @@
 <?php 
-        $color="blue";
-        $autor="Octavio Vasquez";
-        $title="Octavio Music";
-    ?>
+        require_once "model/config.php";
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>

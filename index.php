@@ -1,6 +1,5 @@
 <?php
 require_once "model/db.model.php";
-require_once "model/rutas.php";
 $controller="index";
 
 if (!isset($_REQUEST['c'])) {
