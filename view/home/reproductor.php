@@ -5,9 +5,8 @@
 
     <div class="col s12 m1"></div>
 
-    <div class="col s12 m4">
+    <div class="col s12 m4"><br><br><br>
                 <div class="music-player-container is-playing">
-
             <div class="music-player">
                 <div class="player-content-container">
                     <h1 class="artist-name">Incubus</h1><!--  /.track-title -->
