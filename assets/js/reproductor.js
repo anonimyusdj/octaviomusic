@@ -123,6 +123,4 @@ function updateInfo() {
     art.onload = function() {
         audio.play();
     }
-}       audio.play();
-    }
 }
