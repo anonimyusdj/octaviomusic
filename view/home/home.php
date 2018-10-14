@@ -5,7 +5,7 @@
         <li><img style="height: 350px;" src="<?php echo $imagenes;?>img3.jpg" alt=""></li>
         <li><img style="height: 350px;" src="<?php echo $imagenes;?>img4.jpg" alt=""></li>
     </ul>
-</div--><br><br>
+</div--><br>
 <center>
 <div class="slider">
     <ul class="slides">
