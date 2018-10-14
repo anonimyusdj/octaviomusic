@@ -5,39 +5,25 @@
         <li><img style="height: 350px;" src="<?php echo $imagenes;?>img3.jpg" alt=""></li>
         <li><img style="height: 350px;" src="<?php echo $imagenes;?>img4.jpg" alt=""></li>
     </ul>
-</div-->
+</div--><br><br>
+<center>
 <div class="slider">
     <ul class="slides">
       <li>
-        <img src="https://lorempixel.com/580/250/nature/1"> <!-- random image -->
-        <div class="caption center-align">
-          <h3>This is our big Tagline!</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
+        <img src="<?php echo $imagenes;?>img1.png"> <!-- random image -->
       </li>
       <li>
-        <img src="https://lorempixel.com/580/250/nature/2"> <!-- random image -->
-        <div class="caption left-align">
-          <h3>Left Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
+        <img src="<?php echo $imagenes;?>img2.jpg"> <!-- random image -->
       </li>
       <li>
-        <img src="https://lorempixel.com/580/250/nature/3"> <!-- random image -->
-        <div class="caption right-align">
-          <h3>Right Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
+        <img src="<?php echo $imagenes;?>img3.jpg"> <!-- random image -->
       </li>
       <li>
-        <img src="https://lorempixel.com/580/250/nature/4"> <!-- random image -->
-        <div class="caption center-align">
-          <h3>This is our big Tagline!</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
+        <img src="<?php echo $imagenes;?>img4.jpg"> <!-- random image -->
       </li>
     </ul>
-  </div>
+</div>
+</center>
 <div class="row">
     <div class="col s12 m1"></div>
     <div class="col s12 m5 card">
