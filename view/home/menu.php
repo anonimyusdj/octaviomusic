@@ -1,4 +1,4 @@
-<div class="navbar-fixed">
+
 <nav>
     <div class="nav-wrapper <?php echo $color; ?> darken-3">
       <a href="#!" class="brand-logo"><img src="<?php echo $imagenes;?>logo.jpg" alt=""  width="45px"><?php echo $autor ?></a>
@@ -19,4 +19,3 @@
       </ul>
     </div>
   </nav>
-  </div>
