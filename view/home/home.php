@@ -1,3 +1,11 @@
+<div class="slider">
+    <ul>
+        <li><img style="height: 350px;" src="<?php echo $imagenes;?>img1.png" alt=""></li>
+        <li><img style="height: 350px;" src="<?php echo $imagenes;?>img2.jpg" alt=""></li>
+        <li><img style="height: 350px;" src="<?php echo $imagenes;?>img3.jpg" alt=""></li>
+        <li><img style="height: 350px;" src="<?php echo $imagenes;?>img4.jpg" alt=""></li>
+    </ul>
+</div>
 <div class="row">
     <div class="col s12 m1"></div>
     <div class="col s12 m5 card">
