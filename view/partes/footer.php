@@ -45,8 +45,8 @@
 <script src="<?php echo $js;?>jquery.audioControls.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.4/angular.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-<script src="<?php echo $js;?>/css.js"></script>    
-<script src="<?php echo $js;?>/reproductor.js"></script>   
+<script src="<?php echo $js;?>css.js"></script>    
+<script src="<?php echo $js;?>reproductor.js"></script>   
  
 </body>
 </html>
