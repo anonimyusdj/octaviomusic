@@ -6,26 +6,31 @@
     <div class="col s12 m1"></div>
 
     <div class="col s12 m4">
-                <div class="music-player-container is-playing">
-            <div class="music-player">
-                <div class="player-content-container">
-                    <h1 class="artist-name">Incubus</h1><!--  /.track-title -->
-                    <h2 class="album-title">Make Yourself</h2><!--  /.album-title -->
-                    <h3 class="song-title">"Stellar"</h3><!--  /.song-title -->
-                    <div class="music-player-controls">
-                        <div class="control-back"></div><!--  /.control-back -->
-                        <div class="control-play"></div><!--  /.control-play -->
-                        <div class="control-forwards"></div><!--  /.control-forwards -->
-                    </div><!--  /.music-player-controls -->
-                </div><!--  /.player-content-container -->
-            </div><!--  /.music-player -->
+            <div class="container">
+                <div class="column add-bottom">
+                    <div id="mainwrap">
+                        <div id="nowPlay">
+                            <span id="npAction">Paused...</span><span id="npTitle"></span>
+                        </div>
+                        <div id="audiowrap">
+                            <div id="audio0">
+                                <audio id="audio1" preload controls>Your browser does not support HTML5 Audio! 😢</audio>
+                            </div>
+                            <div id="tracks">
+                                <a id="btnPrev">&larr;</a><a id="btnNext">&rarr;</a>
+                            </div>
+                        </div>
+                        <div id="plwrap">
+                            <ul id="plList"></ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="column add-bottom center">
+                    <p>Music by <a href="http://www.mythium.net/">Mythium</a></p>
+                    <p>Download: <a href="https://archive.org/download/mythium/mythium_vbr_mp3.zip">zip</a> / <a href="https://archive.org/download/mythium/mythium_archive.torrent">torrent</a></p>
+                </div>
+            </div>
 
-            <div class="album">
-                <div class="album-art"></div><!--  /.album-art -->
-                <div class="vinyl"></div><!--  /.vinyl -->
-            </div><!--  /.album-art -->
-
-            </div><!--  /.music-player -->
     </div>
 
     <div class="col s12 m1"></div>
