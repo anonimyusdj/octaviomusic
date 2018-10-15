@@ -62,7 +62,7 @@
         <br>
         <center>
             <a style=" font-size:20px; font-weight: bold;" href="#!/music" class="red darken-4 waves-effect waves-light btn-large center"> <i class="material-icons medium right">headset</i>Descargar Musica</a>
-        <br>
+        <br> <br>
         <div class="chip red darken-4 white-text" style="font-size:12px; font-weight: bold;">Apoyame Descargando mi música gratis o haciendo una donación</div>
         </center>
     </div>
