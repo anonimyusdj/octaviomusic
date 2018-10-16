@@ -15,4 +15,8 @@ $(document).ready(function(){
   $(document).ready(function(){
      $('.tooltipped').tooltip({delay: 50});
    });
+
+   $(document).ready(function(){
+      $('.materialboxed').materialbox();
+    });
         
