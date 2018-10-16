@@ -91,7 +91,7 @@
       <h3 class="center">Patrocinadores</h3>
       <div class="col s12 m2">
         <div class="row">
-            <div class="col s12 m12">
+            <div class="col s12 m12 card">
               <img src="<?php echo $imagenes;?>patrocinador1.jpg" class="responsive-img circle"  width="200px">
             </div>
             <div class="col s12 m12">
@@ -103,7 +103,7 @@
         </div>
       </div>
 
-      <div class="col s12 m2">
+      <div class="col s12 m2 card">
         <div class="row">
             <div class="col s12 m12">
               <img src="<?php echo $imagenes;?>patrocinador21.png" class="responsive-img circle" width="200px">
