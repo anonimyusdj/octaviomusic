@@ -89,9 +89,9 @@
 <div class="section white">
     <div class="row">
       <div class="col s12 m4">
-        <div class="row center promo">
+        <div class="row">
             <div class="col s12 m12">
-              <img src="<?php echo $imagenes;?>patrocinador1.jpg" alt="">
+              <img src="<?php echo $imagenes;?>patrocinador1.jpg" class="responsive-img" alt="">
             </div>
             <div class="col s12 m12">
               <p class="promo-caption">Eventos Especiales</p>
@@ -103,9 +103,9 @@
       </div>
 
       <div class="col s12 m4">
-        <div class="row center promo">
+        <div class="row">
             <div class="col s12 m12">
-              <img src="<?php echo $imagenes;?>patrocinador2.png" alt="">
+              <img src="<?php echo $imagenes;?>patrocinador2.png" alt="" class="responsive-img">
             </div>
             <div class="col s12 m12">
               <p class="promo-caption">Innovation Systems</p>
