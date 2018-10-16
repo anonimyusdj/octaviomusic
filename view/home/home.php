@@ -102,7 +102,7 @@
             </div>
         </div>
       </div>
-
+      <div class="col s12 m1"></div>
       <div class="col s12 m2 card">
         <div class="row">
             <div class="col s12 m12">
