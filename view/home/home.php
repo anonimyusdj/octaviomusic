@@ -1,7 +1,7 @@
 <div class="parallax-container">
     <div class="parallax"><img src="<?php echo $imagenes;?>fondo.jpg"></div>
 </div>
-    <div class="section white">
+    <div class="section white" style="opacity: 0.5;">
         <div class="row">
             <br>
             <center>
@@ -27,7 +27,7 @@
 <div class="parallax-container">
       <div class="parallax"><img src="<?php echo $imagenes;?>fondo.jpg"></div>
   </div>
-    <div class="section white">
+    <div class="section white" style="opacity: 0.5;">
         <div class="row">
                 <div class="col s12 m1"></div>
                 <div class="col s12 m10 card">
@@ -57,7 +57,7 @@
 <div class="parallax-container">
   <div class="parallax"><img src="<?php echo $imagenes;?>fondo.jpg"></div>
 </div>
-<div class="section white">
+<div class="section white" style="opacity: 0.5;">
     <div class="row">
       <div class="col s12 m2"></div>
           <div class="col s12 m8 card">
