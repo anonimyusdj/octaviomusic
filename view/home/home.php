@@ -30,7 +30,7 @@
                 </ul>
             </div>
             </center>
-            <div class="row">
+
                 <div class="col s12 m1"></div>
                 <div class="col s12 m5 card">
                     <header>
@@ -71,7 +71,6 @@
                     <br> <br>
                     <div class="chip red darken-4 white-text" style="font-size:12px; font-weight: bold;">Apoyame Descargando mi música gratis o haciendo una donación</div>
                     </center>
-                </div>
-            </div>
+            </div> 
         </div>
     </div>
