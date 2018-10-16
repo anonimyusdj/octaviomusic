@@ -91,7 +91,7 @@
       <div class="col s12 m4">
         <div class="row">
             <div class="col s12 m12">
-              <img src="<?php echo $imagenes;?>patrocinador1.jpg" class="responsive-img" alt="">
+              <img src="<?php echo $imagenes;?>patrocinador1.jpg" class="responsive-img circle"  width="200px">
             </div>
             <div class="col s12 m12">
               <p class="promo-caption">Eventos Especiales</p>
@@ -105,7 +105,7 @@
       <div class="col s12 m4">
         <div class="row">
             <div class="col s12 m12">
-              <img src="<?php echo $imagenes;?>patrocinador2.png" alt="" class="responsive-img">
+              <img src="<?php echo $imagenes;?>patrocinador2.png" class="responsive-img circle" width="200px">
             </div>
             <div class="col s12 m12">
               <p class="promo-caption">Innovation Systems</p>
