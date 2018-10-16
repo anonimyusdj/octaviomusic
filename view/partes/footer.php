@@ -23,6 +23,7 @@
           </form>
         </div>
       </div>
+      <center>
       <div class="col l4 offset-l2 s12">
         <h5 class="white-text">REDES SOCIALES</h5>
         <ul>
@@ -37,6 +38,7 @@
         <a href="https://www.facebook.com/EventosEspecialesSM/" target="_blank"><img src="<?php echo $imagenes;?>patrocinador1.jpg" class="responsive-img circle tooltipped" data-position="bottom" data-delay="50" data-tooltip="Eventos Especiales"  width="60px"></a>
         <img src="<?php echo $imagenes;?>patrocinador2.png" class="responsive-img circle tooltipped" data-position="bottom" data-delay="50" data-tooltip="Innovation Systems"  width="60px">
       </div>
+    </center>
     </div>
   </div>
   <div class="footer-copyright">
