@@ -5,7 +5,7 @@
         <div class="row">
             <br>
             <center>
-            <div class="slider section scrollspy" id="home">
+            <div class="slider">
                 <ul class="slides">
                 <li>
                     <img src="<?php echo $imagenes;?>img1.png"> <!-- random image -->
@@ -28,7 +28,7 @@
     <div class="section white">
         <div class="row">
                 <div class="col s12 m1"></div>
-                <div class="col s12 m10 card section scrollspy" id="agradecimientos">
+                <div class="col s12 m10 card">
                     <header>
                         <h4>AGRADECIMIENTOS</h4>
                     </header>
@@ -41,7 +41,7 @@
         </div>
         <div class="row">
                 <div class="col s12 m4"></div>
-                    <div class="col s12 m5 card section scrollspy" id="musica">
+                    <div class="col s12 m5 card">
                         <br>
                         <center>
                             <a style=" font-size:20px; font-weight: bold;" href="#!/music" class="red darken-4 waves-effect waves-light btn-large center"> <i class="material-icons medium right">headset</i>Descargar Musica</a>
@@ -58,7 +58,7 @@
 <div class="section white">
     <div class="row">
       <div class="col s12 m2"></div>
-          <div class="col s12 m8 card section scrollspy" id="sobremi">
+          <div class="col s12 m8 card">
               <header>
                     <h4 class="titulo">SOBRE MI</h4>
                 </header>
@@ -79,13 +79,3 @@
             <div class="col s12 m2"></div>
       </div>
 </div>
-
-
-<div class="col hide-on-small-only m3 l2">
-      <ul class="section table-of-contents">
-        <li><a href="#home">HomeS</a></li>
-        <li><a href="#agradecimientos">Agradecimientos</a></li>
-        <li><a href="#musica">Musica</a></li>
-        <li><a href="#sobremi">Sobre Mi</a></li>
-      </ul>
-    </div>
