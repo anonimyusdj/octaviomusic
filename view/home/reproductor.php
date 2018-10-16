@@ -9,7 +9,7 @@
     <div class="col s12 m4">  
         <div class="row">
             <div class="col s12 m4">
-                <audio controls id="player" controlsList = "nodownload" poster="<?php echo $imagenes?>album.jpg">
+                <audio controls id="player" poster="<?php echo $imagenes?>album.jpg">
                     <source src="<?php echo $musica;?>horse.ogg"  type="audio/ogg">
                 </audio>
             </div>
