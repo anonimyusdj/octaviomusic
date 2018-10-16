@@ -1,11 +1,3 @@
-<!--div class="slider">
-    <ul>
-        <li><img style="height: 350px;" src="<?php echo $imagenes;?>img1.png" alt=""></li>
-        <li><img style="height: 350px;" src="<?php echo $imagenes;?>img2.jpg" alt=""></li>
-        <li><img style="height: 350px;" src="<?php echo $imagenes;?>img3.jpg" alt=""></li>
-        <li><img style="height: 350px;" src="<?php echo $imagenes;?>img4.jpg" alt=""></li>
-    </ul>
-</div-->
 <div class="parallax-container">
     <div class="parallax"><img src="<?php echo $imagenes;?>fondo.jpg"></div>
 </div>
