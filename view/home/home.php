@@ -8,7 +8,7 @@
 </div-->
 <div class="parallax-container">
     <div class="parallax">
-             <div class="slider">
+            <div class="slider">
                 <ul class="slides">
                 <li>
                     <img src="<?php echo $imagenes;?>img1.png"> <!-- random image -->
