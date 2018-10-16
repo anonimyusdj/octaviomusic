@@ -32,6 +32,11 @@
           <li><a class="grey-text text-lighten-3" href="#!">Telefono</a></li>
         </ul>
       </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Patrocinadores</h5>
+        <img src="<?php echo $imagenes;?>patrocinador1.jpg" class="responsive-img circle tooltipped" data-position="bottom" data-delay="50" data-tooltip="Eventos Especiales"  width="30px">
+        <img src="<?php echo $imagenes;?>patrocinador2.png" class="responsive-img circle tooltipped" data-position="bottom" data-delay="50" data-tooltip="Innovation Systems"  width="30px">
+      </div>
     </div>
   </div>
   <div class="footer-copyright">
@@ -39,16 +44,7 @@
         <div class="col s12 m4 left">
             <a class="grey-text text-lighten-4 left" href="#!">© 2018 Copyright Octavio Vasquez<a>
         </div>
-        <div class="col s12 m2">
-        </div>
-        <div class="col s12 m5">
-          <a class="grey-text text-lighten-4 right" href="#!">Patrocinadores:
-            <br>
-                  <img src="<?php echo $imagenes;?>patrocinador1.jpg" class="responsive-img circle tooltipped" data-position="bottom" data-delay="50" data-tooltip="Eventos Especiales"  width="30px">
-                  <img src="<?php echo $imagenes;?>patrocinador2.png" class="responsive-img circle tooltipped" data-position="bottom" data-delay="50" data-tooltip="Innovation Systems"  width="30px">
-            </div>
-          </a>
-        </div>
+      </div>
     </div>
   </div>
 </footer>

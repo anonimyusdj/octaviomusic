@@ -9,6 +9,7 @@
         <li><a style=" font-size:20px;" href="badges.html"><i class="material-icons left">art_track</i>Eventos</a></li>
         <li><a style=" font-size:20px;" href="index.php?c=index&a=musica"><i class="material-icons left">headset</i>Música</a></li>
         <li><a style=" font-size:20px;" href="mobile.html"><i class="material-icons  left">face</i>Biografía</a></li>
+        <li><a style=" font-size:20px;" href="index.php?c=index&a=patrocinadores"><i class="material-icons  left">people</i>Patrocinadores</a></li>
       </ul>
     </div>
   </nav>
@@ -19,4 +20,5 @@
         <li><a style=" font-size:20px; font-weight: bold;" href="badges.html"><i class="material-icons left">art_track</i>Eventos</a></li>
         <li><a style=" font-size:20px; font-weight: bold;" href="index.php?c=index&a=musica"><i class="material-icons left">headset</i>Música</a></li>
         <li><a style=" font-size:20px; font-weight: bold;" href="mobile.html"><i class="material-icons  left">face</i>Biografía</a></li>
+        <li><a style=" font-size:20px;" href="index.php?c=index&a=patrocinadores"><i class="material-icons  left">people</i>Patrocinadores</a></li>
       </ul>

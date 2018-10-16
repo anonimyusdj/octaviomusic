@@ -1,7 +1,7 @@
 <?php
 
 class IndexController{
-    
+
     public function index(){
         require_once "view/partes/header.php";
         require_once "view/home/menu.php";
@@ -18,6 +18,12 @@ class IndexController{
         require_once "view/partes/header.php";
         require_once "view/home/menu.php";
         require_once "view/erros/404.php";
+        require_once "view/partes/footer.php";
+    }
+    public function patrocinadores(){
+        require_once "view/partes/header.php";
+        require_once "view/home/menu.php";
+        require_once "view/home/patrocinadores.php";
         require_once "view/partes/footer.php";
     }
 }
