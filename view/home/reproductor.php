@@ -7,7 +7,7 @@
     <div class="col s12 m1"></div>
 
     <div class="col s12 m4">  
-        <audio controls id="player">
+        <audio controls id="player" controlsList = "nodownload">
             <source src="<?php echo $music;?>horse.ogg"  type="audio/ogg">
         </audio>
         <div class="mask"></div>
