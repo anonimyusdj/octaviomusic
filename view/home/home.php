@@ -24,7 +24,9 @@
             </center>
         </div>
     </div>
-
+<div class="parallax-container">
+      <div class="parallax"><img src="<?php echo $imagenes;?>fondo.jpg"></div>
+  </div>
     <div class="section white">
         <div class="row">
                 <div class="col s12 m1"></div>
