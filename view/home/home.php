@@ -88,6 +88,7 @@
 
 <div class="section white">
     <div class="row">
+      <h3 class="center">Patrocinadores</h3>
       <div class="col s12 m4">
         <div class="row">
             <div class="col s12 m12">
