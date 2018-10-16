@@ -36,19 +36,18 @@
   </div>
   <div class="footer-copyright">
     <div class="row">
-      <div class="col s12 m4">
-          © 2018 Copyright Octavio Vasquez
-      </div>
-      <div class="col s12 m2">
-
-      </div>
-      <div class="col s12 m5">
-        <a class="grey-text text-lighten-4 right" href="#!">Patrocinadores:
-                <img src="<?php echo $imagenes;?>patrocinador1.jpg" class="responsive-img"  width="30px">
-                <img src="<?php echo $imagenes;?>patrocinador2.png" class="responsive-img"  width="30px">
-          </div>
-        </a>
-      </div>
+        <div class="col s12 m4 left">
+            <a class="grey-text text-lighten-4 left" href="#!">© 2018 Copyright Octavio Vasquez<a>
+        </div>
+        <div class="col s12 m2">
+        </div>
+        <div class="col s12 m5">
+          <a class="grey-text text-lighten-4 right" href="#!">Patrocinadores:
+                  <img src="<?php echo $imagenes;?>patrocinador1.jpg" class="responsive-img"  width="30px">
+                  <img src="<?php echo $imagenes;?>patrocinador2.png" class="responsive-img"  width="30px">
+            </div>
+          </a>
+        </div>
     </div>
   </div>
 </footer>
