@@ -6,7 +6,7 @@
 
     <div class="col s12 m1"></div>
 
-    <div class="col s12 m4">
+    <div class="col s12 m4 card">
         <div class="row">
             <div class="col s12 m4">
               <div id="wrapper">
