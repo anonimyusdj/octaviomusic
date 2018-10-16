@@ -24,7 +24,7 @@
             </center>
         </div>
     </div>
-    
+
     <div class="section white">
         <div class="row">
                 <div class="col s12 m1"></div>
@@ -38,7 +38,7 @@
                         Fue popularizado en los 60s con la creacion de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y mas recientemente con software de autoedicion, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
                 </div>
         </div>
-            <div class="row">
+        <div class="row">
                 <div class="col s12 m4"></div>
                     <div class="col s12 m5 card">
                         <br>
@@ -47,21 +47,20 @@
                         <br> <br>
                         <div class="chip red darken-4 white-text" style="font-size:12px; font-weight: bold;">Apoyame Descargando mi música gratis o haciendo una donación</div>
                         </center>
-                    </div> 
-                </div>
-            </div>
-    </div>
-</div>
+                    </div>
+          </div>
+      </div>
+
 
 <div class="section white">
     <div class="row">
-    <div class="col s12 m1"></div>
-                <div class="col s12 m4 card">
-                    <header>
-                        <h4 class="titulo">SOBRE MI</h4>
-                    </header>
+      <div class="col s12 m1"></div>
+          <div class="col s12 m4 card">
+              <header>
+                    <h4 class="titulo">SOBRE MI</h4>
+                </header>
                     <hr>
-                    <div class="row">
+              <div class="row">
                         <div class="col s12 md12">
                             <center><img style="height: 100px;" class="responsive-img circle" src="<?php echo $imagenes;?>avatar.jpg" alt="">
                                 <h5>Octavio Vazquez</h5>
@@ -72,8 +71,7 @@
                         <div class="col s12 m12">
                             <p>Descripción</p>
                         </div>
-                    </div>
                 </div>
             </div>
-    </div>
+      </div>
 </div>
