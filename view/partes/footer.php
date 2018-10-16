@@ -26,12 +26,11 @@
       <center>
       <div class="col l4 offset-l2 s12">
         <h5 class="white-text">REDES SOCIALES</h5>
-        <ul>
-          <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
-          <li><a class="grey-text text-lighten-3" href="#!">Twiter</a></li>
-          <li><a class="grey-text text-lighten-3" href="#!">Gmail</a></li>
-          <li><a class="grey-text text-lighten-3" href="#!">Telefono</a></li>
-        </ul>
+          <a href="" target="_blank"><img src="<?php echo $imagenes;?>f.png" class="responsive-img circle"width="60px"></a>
+          <a href="" target="_blank"><img src="<?php echo $imagenes;?>t.png" class="responsive-img circle"width="60px"></a>
+          <a href="" target="_blank"><img src="<?php echo $imagenes;?>g.png" class="responsive-img circle"width="60px"></a>
+          <a href="" target="_blank"><img src="<?php echo $imagenes;?>y.png" class="responsive-img circle"width="60px"></a>
+          <a href="" target="_blank"><img src="<?php echo $imagenes;?>w.png" class="responsive-img circle"width="60px"></a>
       </div>
       <div class="col l4 offset-l2 s12">
         <h5 class="white-text">Patrocinadores</h5>
