@@ -106,7 +106,7 @@
       <div class="col s12 m4">
         <div class="row">
             <div class="col s12 m12">
-              <img src="<?php echo $imagenes;?>patrocinador2.png" class="responsive-img circle" width="200px">
+              <img src="<?php echo $imagenes;?>patrocinador21.png" class="responsive-img circle" width="200px">
             </div>
             <div class="col s12 m12">
               <p class="promo-caption">Innovation Systems</p>
