@@ -10,7 +10,7 @@
     <div class="parallax"><img src="<?php echo $imagenes;?>fondo.jpg"></div>
 </div>
     <div class="section white">
-        <div class="row container">
+        <div class="row">
             <br>
             <center>
             <div class="slider">
@@ -33,7 +33,7 @@
         </div>
     </div>
     <div class="section white">
-        <div class="row container">
+        <div class="row">
                 <div class="col s12 m1"></div>
                 <div class="col s12 m5 card">
                     <header>
