@@ -43,15 +43,11 @@
 
       </div>
       <div class="col s12 m4">
-        <a class="grey-text text-lighten-4 right" href="#!">Patrocinadores:</a>
-        <div class="row">
-            <div class="col s12 m2">
-              <img src="<?php echo $imagenes;?>patrocinador1.jpg" class="responsive-img"  width="30px">
-            </div>
-            <div class="col s12 m2">
-              <img src="<?php echo $imagenes;?>patrocinador2.png" class="responsive-img"  width="30px">
-            </div>
-        </div>
+        <a class="grey-text text-lighten-4 right" href="#!">Patrocinadores:
+                <img src="<?php echo $imagenes;?>patrocinador1.jpg" class="responsive-img"  width="30px">
+                <img src="<?php echo $imagenes;?>patrocinador2.png" class="responsive-img"  width="30px">
+          </div>
+        </a>
       </div>
     </div>
   </div>
