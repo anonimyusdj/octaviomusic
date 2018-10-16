@@ -24,6 +24,7 @@
             </center>
         </div>
     </div>
+    
     <div class="section white">
         <div class="row">
                 <div class="col s12 m1"></div>
