@@ -26,11 +26,11 @@
       <center>
       <div class="col l4 offset-l2 s12">
         <h5 class="white-text">REDES SOCIALES</h5>
-          <a href="" target="_blank"><img src="<?php echo $imagenes;?>f.png" class="responsive-img circle"width="60px"></a>
-          <a href="" target="_blank"><img src="<?php echo $imagenes;?>t.png" class="responsive-img circle"width="60px"></a>
-          <a href="" target="_blank"><img src="<?php echo $imagenes;?>g.png" class="responsive-img circle"width="60px"></a>
-          <a href="" target="_blank"><img src="<?php echo $imagenes;?>y.png" class="responsive-img circle"width="60px"></a>
-          <a href="" target="_blank"><img src="<?php echo $imagenes;?>w.png" class="responsive-img circle"width="60px"></a>
+          <a href="" target="_blank"><img src="<?php echo $imagenes;?>f.png" class="responsive-img circle"width="50px"></a>
+          <a href="" target="_blank"><img src="<?php echo $imagenes;?>t.png" class="responsive-img circle"width="50px"></a>
+          <a href="" target="_blank"><img src="<?php echo $imagenes;?>g.png" class="responsive-img circle"width="50px"></a>
+          <a href="" target="_blank"><img src="<?php echo $imagenes;?>y.png" class="responsive-img circle"width="50px"></a>
+          <a href="" target="_blank"><img src="<?php echo $imagenes;?>w.png" class="responsive-img circle"width="50px"></a>
       </div>
       <div class="col l4 offset-l2 s12">
         <h5 class="white-text">Patrocinadores</h5>
