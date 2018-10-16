@@ -43,8 +43,8 @@
         </div>
         <div class="col s12 m5">
           <a class="grey-text text-lighten-4 right" href="#!">Patrocinadores:
-                  <img src="<?php echo $imagenes;?>patrocinador1.jpg" class="responsive-img"  width="30px">
-                  <img src="<?php echo $imagenes;?>patrocinador2.png" class="responsive-img"  width="30px">
+                  <img src="<?php echo $imagenes;?>patrocinador1.jpg" class="responsive-img circle tooltipped" data-position="bottom" data-delay="50" data-tooltip="Eventos Especiales"  width="30px">
+                  <img src="<?php echo $imagenes;?>patrocinador2.png" class="responsive-img circle tooltipped" data-position="bottom" data-delay="50" data-tooltip="Innovation Systems"  width="30px">
             </div>
           </a>
         </div>
