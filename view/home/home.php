@@ -81,3 +81,39 @@
             <div class="col s12 m2"></div>
       </div>
 </div>
+
+<div class="parallax-container">
+  <div class="parallax"><img src="<?php echo $imagenes;?>fondo.jpg"></div>
+</div>
+
+<div class="section white">
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="row center promo">
+            <div class="col s12 m12">
+              <img src="<?php echo $imagenes;?>patrocinador1.jpg" alt="">
+            </div>
+            <div class="col s12 m12">
+              <p class="promo-caption">Eventos Especiales</p>
+            </div>
+            <div class="col s12 m12">
+              Reseña
+            </div>
+        </div>
+      </div>
+
+      <div class="col s12 m4">
+        <div class="row center promo">
+            <div class="col s12 m12">
+              <img src="<?php echo $imagenes;?>patrocinador2.png" alt="">
+            </div>
+            <div class="col s12 m12">
+              <p class="promo-caption">Innovation Systems</p>
+            </div>
+            <div class="col s12 m12">
+              Reseña
+            </div>
+        </div>
+      </div>
+    </div>
+</div>
