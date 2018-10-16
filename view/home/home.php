@@ -36,7 +36,25 @@
                         usa una galería de textos y los mezcla de tal manera que logro hacer un libro de textos especimen. No solo sobrevivio 500 años, sino que tambien ingreso como texto de relleno en documentos electronicos, quedando esencialmente igual al original.
                         Fue popularizado en los 60s con la creacion de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y mas recientemente con software de autoedicion, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
                 </div>
-                <div class="col s12 m1"></div>
+        </div>
+            <div class="row">
+                <div class="col s12 m4"></div>
+                    <div class="col s12 m5 card">
+                        <br>
+                        <center>
+                            <a style=" font-size:20px; font-weight: bold;" href="#!/music" class="red darken-4 waves-effect waves-light btn-large center"> <i class="material-icons medium right">headset</i>Descargar Musica</a>
+                        <br> <br>
+                        <div class="chip red darken-4 white-text" style="font-size:12px; font-weight: bold;">Apoyame Descargando mi música gratis o haciendo una donación</div>
+                        </center>
+                    </div> 
+                </div>
+            </div>
+    </div>
+</div>
+
+<div class="section white">
+    <div class="row">
+    <div class="col s12 m1"></div>
                 <div class="col s12 m4 card">
                     <header>
                         <h4 class="titulo">SOBRE MI</h4>
@@ -56,17 +74,5 @@
                     </div>
                 </div>
             </div>
-
-            <div class="row">
-                <div class="col s12 m4"></div>
-                <div class="col s12 m5 card">
-                    <br>
-                    <center>
-                        <a style=" font-size:20px; font-weight: bold;" href="#!/music" class="red darken-4 waves-effect waves-light btn-large center"> <i class="material-icons medium right">headset</i>Descargar Musica</a>
-                    <br> <br>
-                    <div class="chip red darken-4 white-text" style="font-size:12px; font-weight: bold;">Apoyame Descargando mi música gratis o haciendo una donación</div>
-                    </center>
-                </div> 
-            </div>
-        </div>
     </div>
+</div>
