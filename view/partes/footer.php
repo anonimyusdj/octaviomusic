@@ -34,7 +34,7 @@
       </div>
       <div class="col l4 offset-l2 s12">
         <h5 class="white-text">Patrocinadores</h5>
-        <img src="<?php echo $imagenes;?>patrocinador1.jpg" class="responsive-img circle tooltipped" data-position="bottom" data-delay="50" data-tooltip="Eventos Especiales"  width="30px">
+        <a href="https://www.facebook.com/EventosEspecialesSM/"><img src="<?php echo $imagenes;?>patrocinador1.jpg" class="responsive-img circle tooltipped" data-position="bottom" data-delay="50" data-tooltip="Eventos Especiales"  width="30px"></a>
         <img src="<?php echo $imagenes;?>patrocinador2.png" class="responsive-img circle tooltipped" data-position="bottom" data-delay="50" data-tooltip="Innovation Systems"  width="30px">
       </div>
     </div>
