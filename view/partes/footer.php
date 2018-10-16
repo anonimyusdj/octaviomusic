@@ -40,7 +40,7 @@
     </div>
   </div>
   <div class="footer-copyright">
-            <a class="grey-text text-lighten-4 left" href="#!">© 2018 Copyright Octavio Vasquez<a>
+            <a class="grey-text text-lighten-4 right" href="#!">© 2018 Copyright Octavio Vasquez<a>
   </div>
 </footer>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
