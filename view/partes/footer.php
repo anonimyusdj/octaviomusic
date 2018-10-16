@@ -37,7 +37,16 @@
   <div class="footer-copyright">
     <div class="container">
     © 2018 Copyright Octavio Vasquez
-    <a class="grey-text text-lighten-4 right" href="#!">Patrocinadores:</a>
+    <a class="grey-text text-lighten-4 right" href="#!">Patrocinadores:
+      <div class="row">
+          <div class="col s12 m2">
+            <img src="<?php echo $imagenes;?>patrocinador1.jpg" class="responsive-img" alt="">
+          </div>
+          <div class="col s12 m2">
+            <img src="<?php echo $imagenes;?>patrocinador2.png" class="responsive-img" alt="">
+          </div>
+      </div>
+    </a>
     </div>
   </div>
 </footer>
@@ -45,8 +54,8 @@
 <script src="<?php echo $js;?>jquery.audioControls.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.4/angular.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-<script src="<?php echo $js;?>css.js"></script>    
-<script src="<?php echo $js;?>reproductor.js"></script>   
- 
+<script src="<?php echo $js;?>css.js"></script>
+<script src="<?php echo $js;?>reproductor.js"></script>
+
 </body>
 </html>
