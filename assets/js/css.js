@@ -19,4 +19,12 @@ $(document).ready(function(){
    $(document).ready(function(){
       $('.materialboxed').materialbox();
     });
-        
+    $(document).ready(function() {
+  $(‘#audio-player’).mediaelementplayer({
+  alwaysShowControls: true,
+  features: [‘playpause’,’volume’,’progress’],
+  audioVolume: ‘horizontal’,
+  audioWidth: 364,
+  audioHeight: 70
+  });
+  });

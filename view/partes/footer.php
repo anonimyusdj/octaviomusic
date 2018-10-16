@@ -50,6 +50,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 <script src="<?php echo $js;?>css.js"></script>
 <script src="<?php echo $js;?>reproductor.js"></script>
-
+<script src="<?php echo $js;?>mediaelement-and-player.min.js"></script>
 </body>
 </html>
