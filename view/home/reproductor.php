@@ -7,7 +7,9 @@
     <div class="col s12 m1"></div>
 
     <div class="col s12 m4">  
-        <audio id="player" src="<?php echo $music;?>horse.ogg"  type="audio/ogg"></audio>
+        <audio controls id="player">
+            <source src="<?php echo $music;?>horse.ogg"  type="audio/ogg">
+        </audio>
         <div>
             <button onclick="document.getElementById('player').play()">Play</button>
             <button onclick="document.getElementById('player').pause()">Pausa</button>
