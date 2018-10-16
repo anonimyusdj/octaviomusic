@@ -52,7 +52,9 @@
           </div>
       </div>
 
-
+<div class="parallax-container">
+  <div class="parallax"></div>
+</div>
 <div class="section white">
     <div class="row">
       <div class="col s12 m2"></div>
