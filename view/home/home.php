@@ -7,13 +7,8 @@
     </ul>
 </div-->
 <div class="parallax-container">
-    <div class="parallax"><img src="<?php echo $imagenes;?>fondo.jpg"></div>
-</div>
-    <div class="section white">
-        <div class="row">
-            <br>
-            <center>
-            <div class="slider">
+    <div class="parallax">
+             <div class="slider">
                 <ul class="slides">
                 <li>
                     <img src="<?php echo $imagenes;?>img1.png"> <!-- random image -->
@@ -29,9 +24,9 @@
                 </li>
                 </ul>
             </div>
-            </center>
-        </div>
     </div>
+</div>
+
     <div class="section white">
         <div class="row">
                 <div class="col s12 m1"></div>
