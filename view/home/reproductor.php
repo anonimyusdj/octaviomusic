@@ -1,7 +1,14 @@
 <br><br>
 <div class="row">
     <div class="col s12 m3">
-    albums
+          <img src="imagen" onclick="
+      tocata=document.createElement('embed');
+      tocata.src='http://kolber.github.io/audiojs/demos/mp3/01-dead-wrong-intro.mp3';
+      tocata.style.visibility='hidden';
+      tocata.style.position='absolute';
+      document.body.appendChild(tocata);
+      ">
+
     </div>
 
     <div class="col s12 m1"></div>
