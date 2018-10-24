@@ -19,8 +19,6 @@
 
     </div>
 
-
-    <div class="col s12 m1"></div>
     <div class="col s12 m3">
 
           <div class="card">
@@ -40,8 +38,8 @@
            </div>
 
     </div>
-    <div class="col s12 m1"></div>
-    <div class="col s12 m3 card">
+
+    <div class="col s12 m3">
 
       <div class="card">
          <div class="card-image waves-effect waves-block waves-light">
@@ -60,9 +58,10 @@
        </div>
 
     </div>
-    <div class="col s12 m1"></div>
-    <div class="col s12 m3 card">
-      
+
+
+    <div class="col s12 m3">
+
       <div class="card">
          <div class="card-image waves-effect waves-block waves-light">
            <img class="activator" src="<?php echo $imagenes;?>img4.jpg">
