@@ -7,9 +7,9 @@
          </div>
          <div class="card-content">
            <span class="card-title activator grey-text text-darken-4">Nombre Evento<i class="material-icons right">more_vert</i></span>
-            <h4>Fecha: </h4>
-            <h4>Hora: </h4>
-            <h4>Lugar: </h4>
+            <h6>Fecha: </h6>
+            <h6>Hora: </h6>
+            <h6>Lugar: </h6>
          </div>
          <div class="card-reveal">
            <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Descripcion</span>
@@ -27,9 +27,9 @@
              </div>
              <div class="card-content">
                <span class="card-title activator grey-text text-darken-4">Nombre Evento<i class="material-icons right">more_vert</i></span>
-                <h4>Fecha: </h4>
-                <h4>Hora: </h4>
-                <h4>Lugar: </h4>
+               <h6>Fecha: </h6>
+               <h6>Hora: </h6>
+               <h6>Lugar: </h6>
              </div>
              <div class="card-reveal">
                <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Descripcion</span>
@@ -47,9 +47,9 @@
          </div>
          <div class="card-content">
            <span class="card-title activator grey-text text-darken-4">Nombre Evento<i class="material-icons right">more_vert</i></span>
-            <h4>Fecha: </h4>
-            <h4>Hora: </h4>
-            <h4>Lugar: </h4>
+           <h6>Fecha: </h6>
+           <h6>Hora: </h6>
+           <h6>Lugar: </h6>
          </div>
          <div class="card-reveal">
            <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Descripcion</span>
@@ -68,9 +68,9 @@
          </div>
          <div class="card-content">
            <span class="card-title activator grey-text text-darken-4">Nombre Evento<i class="material-icons right">more_vert</i></span>
-            <h4>Fecha: </h4>
-            <h4>Hora: </h4>
-            <h4>Lugar: </h4>
+           <h6>Fecha: </h6>
+           <h6>Hora: </h6>
+           <h6>Lugar: </h6>
          </div>
          <div class="card-reveal">
            <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i>Descripcion</span>
