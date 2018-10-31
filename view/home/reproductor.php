@@ -13,7 +13,7 @@
     <div class="row">
         <div class="col s12 m12 card">
           <header>
-            <h4>REPRODUCTOR</h4><hr>
+            <h5>REPRODUCTOR</h5<hr>
           </header>
         <hr/>
         <div class="row">
@@ -91,7 +91,7 @@
                   <!--Lista de Reproduccion-->
                   <div class="col s12 m12">
                       <header>
-                        <h4>Lista de Reproducción</h4><hr>
+                        <h5>Lista de Reproducción</h5><hr>
                       </header>
                       <div class="col s12 m12">
                         <div class="row">
@@ -116,7 +116,7 @@
 
         <div class="col s12 m12 card">
             <header>
-              <h4>LISTADO DE CANCIONES</h4><hr>
+              <h5>LISTADO DE CANCIONES</h5><hr>
             </header>
 
               <div class="col s12 m12">
@@ -144,7 +144,7 @@
   <div class="col s12m1"></div>
   <div class="col s12 m2 card">
     <header>
-      <h4>INSPIRACION</h4><hr>
+      <h5>INSPIRACION</h5><hr>
     </header>
      <a class="btn tooltipped" data-position="bottom" data-tooltip="I am a tooltip">Hover me!</a>
   </div>
