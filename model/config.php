@@ -5,5 +5,5 @@
     $musica="assets/multimedia/music/";
     $color="blue";
     $autor="Octavio Vasquez";
-    $title="Octavio Music"; 
+    $title="Octavio Music";
 ?>

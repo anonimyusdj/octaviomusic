@@ -1,8 +1,8 @@
-<?php 
+<?php
         require_once "model/config.php";
 ?>
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" ng-app="octavio">
 <head>
     <meta http-equiv="Expires" content="0">
     <meta http-equiv="Last-Modified" content="0">
@@ -18,4 +18,3 @@
     <link rel="stylesheet" href="<?php echo $css;?>personal.css">
 </head>
 <body>
-
