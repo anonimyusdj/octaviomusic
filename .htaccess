@@ -2,4 +2,4 @@ Options All -Indexes
 RewriteEngine On
 ErrorDocument 404 /index.php?c=index&a=error404
 
-RewriteRule ^login/?$ /index.php?c=admin&a=loginç
+RewriteRule ^login/?$ index.php?c=admin&a=loginç
