@@ -22,42 +22,42 @@
                   <sound-manager></sound-manager>
                   <!--Nombre de la musica sonando-->
                   <header>
-                    <h4 style="margin-left:20px;">  <b>Musica Sonando:</b> {{ currentPlaying.title }} ({{ currentPostion }} / {{ currentDuration }})</h4><hr>
+                    <h6 style="margin-left:20px;">  <b>Musica Sonando:</b> {{ currentPlaying.title }} ({{ currentPostion }} / {{ currentDuration }})</h6><hr>
                   </header>
                   <!---->
                   <!--Reproductor-->
                   <!--Fondo Tiempo-->
                   <div class="fondoprog" seek-track>
-                      <div class="progress progre" ng-style="{width : ( progress + '%' ) }"><i class="material-icons left white-text medium">play_circle_filled</i></div>
+                      <div class="progress progre" ng-style="{width : ( progress + '%' ) }"><i class="material-icons left white-text small">play_circle_filled</i></div>
                   </div>
                   <!---->
 
                   <!--Opciones play, pause, etc-->
                   <div class="row card">
                       <div class="col s12 m2">
-                          <a href="" play-music><i class="material-icons left medium">play_circle_filled</i></a>
+                          <a href="" play-music><i class="material-icons left small">play_circle_filled</i></a>
                       </div>
 
                       <div class="col s12 m2">
-                        <a href="" pause-music><i class="material-icons left medium">pause_circle_filled</i></a>
+                        <a href="" pause-music><i class="material-icons left small">pause_circle_filled</i></a>
                       </div>
 
                       <div class="col s12 m2">
-                        <a href=""  stop-music><i class="material-icons left medium">adjust</i></a>
+                        <a href=""  stop-music><i class="material-icons left small">adjust</i></a>
                       </div>
 
                       <div class="col s12 m2">
                         <a repeat-music class="hidden"></a>
-                        <a ng-if="repeat==false" href="" repeat-music><i class="material-icons left medium">sync_disabled</i></a>
-                        <a ng-if="repeat==true" href=""  repeat-music><i class="material-icons left medium">sync</i></a>
+                        <a ng-if="repeat==false" href="" repeat-music><i class="material-icons left small">sync_disabled</i></a>
+                        <a ng-if="repeat==true" href=""  repeat-music><i class="material-icons left small">sync</i></a>
                       </div>
 
                       <div class="col s12 m2">
-                        <a href="" prev-track><i class="material-icons left medium">skip_previous</i></a>
+                        <a href="" prev-track><i class="material-icons left small">skip_previous</i></a>
                       </div>
 
                       <div class="col s12 m2">
-                        <a href="" next-track><i class="material-icons left medium">skip_next</i></a>
+                        <a href="" next-track><i class="material-icons left small">skip_next</i></a>
                       </div>
                   </div>
                   <!---->
