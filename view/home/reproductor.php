@@ -34,6 +34,7 @@
 
                   <!--Opciones play, pause, etc-->
                   <div class="row card">
+                    <div class="col s1 m1"></div>
                       <div class="col s1 m1">
                           <a href="" play-music><i class="material-icons left small">play_circle_filled</i></a>
                       </div>
@@ -73,6 +74,7 @@
                     <div class="col s1 m1">
                           <a><b>{{ volume }}</b></a>  
                     </div>
+                     <div class="col s1 m1"></div>
                   </div>
                   <!---->
 
