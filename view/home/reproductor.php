@@ -70,7 +70,7 @@
                           <a ng-if="mute==false" href="" class="tooltipped" data-position="bottom" data-tooltip="Silecciar" mute-music><i class="material-icons left small">volume_off</i></a>
                           <a ng-if="mute==true" href="" class="tooltipped" data-position="bottom" data-tooltip="No Silenciar" mute-music><i class="material-icons left small">volume_up</i></a>
                       </div>
-                    <div class="col s1 m1>
+                    <div class="col s1 m1">
                           <a><b>{{ volume }}</b></a>  
                     </div>
                   </div>
