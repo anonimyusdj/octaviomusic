@@ -88,7 +88,7 @@
                           <div class="col-md-12">
                               <ul class="collection">
                                   <li class="collection-item" ng-repeat="song in playlist">
-                                      <div play-from-playlist="song">{{ song.title }}<a ng-if="currentPlaying.id == song.id" href="" pause-music><i class="material-icons right blue-text">play_arrow</i></a></span> <a class="secondary-content" remove-from-playlist="song" data-index="{{$index}}"><i music-player add-song="song" class="material-icons red-text">delete_forever</i></a></div>
+                                      <div play-from-playlist="song">{{ song.title }}<a ng-if="currentPlaying.id == song.id" href="" pause-music><i class="material-icons right blue-text">play_arrow</i></a></span> <a class="secondary-content" remove-from-playlist="song" data-index="{{$index}}" href=""><i music-player add-song="song" class="material-icons red-text">delete_forever</i></a></div>
                                   </li>
                               </ul>
                           </div>
@@ -114,7 +114,7 @@
                   <div class="col-md-12">
                       <ul class="collection">
                           <li class="collection-item" ng-repeat="song in songs">
-                              <div music-player="play" add-song="song">{{ song.title }}<a class="secondary-content"><i music-player add-song="song" class="material-icons blue-text">play_circle_filled</i></a></div>
+                            <div music-player="play" add-song="song"><a href="">{{ song.title }}</a><a href="" class="secondary-content"><i music-player add-song="song" class="material-icons blue-text">play_circle_filled</i></a></div>
                           </li>
                       </ul>
                         <a href="" class="tooltipped" data-position="bottom" data-tooltip="Play Todo" play-all="songs"><i class="material-icons left medium">shop_two</i></a>
