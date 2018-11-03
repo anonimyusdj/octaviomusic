@@ -34,49 +34,45 @@
 
                   <!--Opciones play, pause, etc-->
                   <div class="row card">
-                      <div class="col s12 m1">
-                          <a href="" play-music><i class="material-icons left small">play_circle_filled</i></a>
+                      <div class="col s1 m1">
+                          <a href="" class="tooltipped" data-position="bottom" data-tooltip="Play" play-music><i class="material-icons left small">play_circle_filled</i></a>
                       </div>
 
-                      <div class="col s12 m1">
-                        <a href="" pause-music><i class="material-icons left small">pause_circle_filled</i></a>
+                      <div class="col s1 m1">
+                        <a href="" class="tooltipped" data-position="bottom" data-tooltip="Pause" pause-music><i class="material-icons left small">pause_circle_filled</i></a>
                       </div>
 
-                      <div class="col s12 m1">
-                        <a href=""  stop-music><i class="material-icons left small">adjust</i></a>
+                      <div class="col s1 m1">
+                        <a href="" class="tooltipped" data-position="bottom" data-tooltip="Stop" stop-music><i class="material-icons left small">adjust</i></a>
                       </div>
 
-                      <div class="col s12 m1">
+                      <div class="col s1 m1">
                         <a repeat-music class="hidden"></a>
-                        <a ng-if="repeat==false" href="" repeat-music><i class="material-icons left small">sync_disabled</i></a>
-                        <a ng-if="repeat==true" href=""  repeat-music><i class="material-icons left small">sync</i></a>
+                        <a ng-if="repeat==false" href="" repeat-music class="tooltipped" data-position="bottom" data-tooltip="Repetir"><i class="material-icons left small">sync_disabled</i></a>
+                        <a ng-if="repeat==true" href=""  repeat-music class="tooltipped" data-position="bottom" data-tooltip="Repetir"><i class="material-icons left small">sync</i></a>
                       </div>
 
-                      <div class="col s12 m1">
-                        <a href="" prev-track><i class="material-icons left small">skip_previous</i></a>
+                      <div class="col s1 m1">
+                        <a href="" class="tooltipped" data-position="bottom" data-tooltip="Anterior" prev-track><i class="material-icons left small">skip_previous</i></a>
                       </div>
 
-                      <div class="col s12 m1">
-                        <a href="" next-track><i class="material-icons left small">skip_next</i></a>
+                      <div class="col s1 m1">
+                        <a href="" class="tooltipped" data-position="bottom" data-tooltip="Siguiente" next-track><i class="material-icons left small">skip_next</i></a>
                       </div>
-                  </div>
-                  <!---->
-
-                  <!--Confirmacion de Reproduccion-->
-                  <div class="row">
-                      <div class="col s12 m1"></div>
-                    
-                      <div class="col s12 m3">
-                          <h5><b>Volume:</b> {{ volume }}</h5>
-                      </div>
-
-                      <div class="col s12 m1">
+                      <div class="col s1 m1">
                          <a href="" class="tooltipped" data-position="bottom" data-tooltip="Mas" music-volume data-type="increase"><i class="material-icons left small">local_hospital</i></a>
-                          <a href="" class="tooltipped" data-position="bottom" data-tooltip="Menos" music-volume data-type="decrease"><i class="material-icons left small">do_not_disturb_on</i></a>
-                          <a class="hidden" mute-music>no</a>
+                      </div>
+                      <div class="col s1 m1">
+                         <a href="" class="tooltipped" data-position="bottom" data-tooltip="Menos" music-volume data-type="decrease"><i class="material-icons left small">do_not_disturb_on</i></a>
+                      </div>
+                     <div class="col s1 m1">
+                        <a class="hidden" mute-music></a>
                           <a ng-if="mute==false" href="" class="tooltipped" data-position="bottom" data-tooltip="Silecciar" mute-music><i class="material-icons left small">volume_off</i></a>
                           <a ng-if="mute==true" href="" class="tooltipped" data-position="bottom" data-tooltip="No Silenciar" mute-music><i class="material-icons left small">volume_up</i></a>
                       </div>
+                    <div class="col s1 m1>
+                          <a><b>{{ volume }}</b></a>  
+                    </div>
                   </div>
                   <!---->
 
