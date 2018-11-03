@@ -132,10 +132,20 @@
 
 
   <div class="col s12m1"></div>
-  <div class="col s12 m2 card">
-    <header>
-      <h5>INSPIRACION</h5><hr>
-    </header>
-     <a class="btn tooltipped" data-position="bottom" data-tooltip="I am a tooltip">Hover me!</a>
+  <div class="col s12 m2">
+    <div class="row">
+      <div class="col s12 m12">
+          <header>
+            <h5><i class="material-icons left medium">card_membership</i>Cupones</h5><hr>
+          </header>
+         <a class="btn tooltipped" data-position="bottom" data-tooltip="I am a tooltip">Canjear</a>
+      </div>
+       <div class="col s12 m12">
+          <header>
+            <h5>INSPIRACION</h5><hr>
+          </header>
+           <a class="btn tooltipped" data-position="bottom" data-tooltip="I am a tooltip">Hover me!</a>
+      </div>
+    </div>
   </div>
 </div>
