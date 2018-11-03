@@ -65,15 +65,7 @@
                   <!--Confirmacion de Reproduccion-->
                   <div class="row">
                       <div class="col s12 m1"></div>
-
-                      <div class="col s12 m4">
-                        <h5><b>Reproduciendo:</b> {{ isPlaying }}</h5>
-                      </div>
-
-                      <div class="col s12 m3">
-                         <h5><b>Repetir:</b>({{ repeat }})</h5>
-                      </div>
-
+                    
                       <div class="col s12 m3">
                           <h5><b>Volume:</b> {{ volume }}</h5>
                       </div>
