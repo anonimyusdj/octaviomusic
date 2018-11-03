@@ -34,29 +34,29 @@
 
                   <!--Opciones play, pause, etc-->
                   <div class="row card">
-                      <div class="col s12 m2">
+                      <div class="col s12 m1">
                           <a href="" play-music><i class="material-icons left small">play_circle_filled</i></a>
                       </div>
 
-                      <div class="col s12 m2">
+                      <div class="col s12 m1">
                         <a href="" pause-music><i class="material-icons left small">pause_circle_filled</i></a>
                       </div>
 
-                      <div class="col s12 m2">
+                      <div class="col s12 m1">
                         <a href=""  stop-music><i class="material-icons left small">adjust</i></a>
                       </div>
 
-                      <div class="col s12 m2">
+                      <div class="col s12 m1">
                         <a repeat-music class="hidden"></a>
                         <a ng-if="repeat==false" href="" repeat-music><i class="material-icons left small">sync_disabled</i></a>
                         <a ng-if="repeat==true" href=""  repeat-music><i class="material-icons left small">sync</i></a>
                       </div>
 
-                      <div class="col s12 m2">
+                      <div class="col s12 m1">
                         <a href="" prev-track><i class="material-icons left small">skip_previous</i></a>
                       </div>
 
-                      <div class="col s12 m2">
+                      <div class="col s12 m1">
                         <a href="" next-track><i class="material-icons left small">skip_next</i></a>
                       </div>
                   </div>
