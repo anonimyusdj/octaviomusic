@@ -152,15 +152,23 @@
 </div>
 
 <!--Modal para cupones-->
-
-
-  <!-- Modal Structure -->
   <div id="modal1" class="modal">
     <div class="modal-content">
-      <h4>Modal Header</h4>
-      <p>A bunch of text</p>
+      <h4>Canjear Cupon</h4>
+      <p>Ingrese el Numero del Cupon</p>
+                  <div class="row">
+                <form class="col s12">
+                  <div class="row">
+                    <div class="input-field col s6">
+                      <i class="material-icons prefix">card_giftcard</i>
+                      <input id="icon_prefix" type="text" class="validate">
+                      <label for="icon_prefix">Numero de Cupón</label>
+                    </div>
+                  </div>
+                </form>
+              </div>
     </div>
     <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Canjear</a>
     </div>
   </div>
