@@ -139,6 +139,7 @@
             <h5><i class="material-icons left small">card_membership</i>Cupones</h5><hr>
           </header>
          <a class="btn tooltipped modal-trigger" href="#mcupon" data-position="bottom" data-tooltip="I am a tooltip">Canjear</a>
+        <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
       </div>
        <div class="col s12 m12">
           <header>
@@ -151,20 +152,13 @@
 </div>
 
 <!--Modal para cupones-->
- <div id="mcupon" class="modal">
+
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
     <div class="modal-content">
-      <h4>Cajear Cupon</h4>
-      <p>Ingrese el Numero de su Cupon</p>
-             <div class="row">
-              <form class="col s12">
-                <div class="row">
-                  <div class="input-field col s12 m12">
-                    <i class="material-icons prefix">Numero de Cupon</i>
-                    <input id="icon_prefix" type="text" class="validate">
-                    <label for="icon_prefix">card_giftcard</label>
-                  </div>
-              </form>
-            </div>
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
     </div>
     <div class="modal-footer">
       <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
