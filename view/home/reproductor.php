@@ -138,14 +138,13 @@
           <header>
             <h5><i class="material-icons left small">card_membership</i>Cupones</h5><hr>
           </header>
-         <a class="btn tooltipped modal-trigger" href="#mcupon" data-position="bottom" data-tooltip="I am a tooltip">Canjear</a>
-        <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+        <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Canjear</a>
       </div>
        <div class="col s12 m12">
           <header>
             <h5>INSPIRACION</h5><hr>
           </header>
-           <a class="btn tooltipped" data-position="bottom" data-tooltip="I am a tooltip">Hover me!</a>
+           <a class="btn tooltipped blue darken-3" data-position="bottom" data-tooltip="I am a tooltip">Hover me!</a>
       </div>
     </div>
   </div>
@@ -159,7 +158,7 @@
                   <div class="row">
                 <form class="col s12">
                   <div class="row">
-                    <div class="input-field col s6">
+                    <div class="input-field col s12 m12">
                       <i class="material-icons prefix">card_giftcard</i>
                       <input id="icon_prefix" type="text" class="validate">
                       <label for="icon_prefix">Numero de Cupón</label>
