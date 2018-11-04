@@ -138,7 +138,7 @@
           <header>
             <h5><i class="material-icons left small">card_membership</i>Cupones</h5><hr>
           </header>
-        <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Canjear</a>
+        <a class="waves-effect waves-light btn modal-trigger  blue darken-3" href="#modal1">Canjear</a>
       </div>
        <div class="col s12 m12">
           <header>
