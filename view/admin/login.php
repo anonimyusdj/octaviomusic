@@ -18,7 +18,7 @@
                   <label for="icon_telephone">Contraseña</label>
                 </div>
               </div>
-            <center><button class="btn <?php echo $color; ?>-text darken-3" type="submit">Ingresar</button></center><br>
+            <center><button class="btn <?php echo $color; ?> darken-3" type="submit">Ingresar</button></center><br>
             </form>
     </div>
     <div class="col s12 m4">
