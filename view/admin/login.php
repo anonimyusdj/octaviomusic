@@ -4,6 +4,9 @@
     <div class="col s12 m4 card">
         <form action="login" method="post">
               <div class="row">
+                  <header>
+                        Bienvenido
+                  </header><hr>
                 <div class="input-field col s12 m12">
                   <i class="material-icons prefix">email</i>
                   <input id="icon_prefix" type="text" class="validate">
