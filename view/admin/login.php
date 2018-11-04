@@ -18,7 +18,7 @@
                   <label for="icon_telephone">Contraseña</label>
                 </div>
               </div>
-            <center><button class="btn blue darken-3" type="submit">Ingresar</button></center>
+            <center><button class="btn blue darken-3" type="submit">Ingresar</button></center><br>
             </form>
     </div>
     <div class="col s12 m4">
