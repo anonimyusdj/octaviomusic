@@ -13,7 +13,7 @@
                   <label for="icon_prefix">Usuario</label>
                 </div>
                 <div class="input-field col s12 m12">
-                  <i class="material-icons prefix">vpn</i>
+                  <i class="material-icons prefix">https</i>
                   <input id="icon_telephone" type="password" class="validate">
                   <label for="icon_telephone">Contraseña</label>
                 </div>
