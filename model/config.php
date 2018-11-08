@@ -6,4 +6,5 @@
     $color="blue";
     $autor="Octavio Vasquez";
     $title="Octavio Music";
+    
 ?>
